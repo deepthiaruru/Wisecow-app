@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wisecow
-        image: vishnuyadav799/wisecow-app:latest # Update with your Docker Hub username
+        image: deepthi0306/wisecow-app:latest # Update with your Docker Hub username
         ports:
         - containerPort: 4499  # Change this if your HTTPS port is different
         volumeMounts:
